@@ -13,8 +13,8 @@
                  description: Faker::Lorem.paragraph(sentence_count: 2))
 end
 
-Search.create(query: 'Teste', user_id: 1, quantity: 10)
-Search.create(query: 'Teste', user_id: 2, quantity: 15)
-Search.create(query: 'xeste', user_id: 2, quantity: 20)
+Search.create(query: 'test', user_id: 1, quantity: 10)
+Search.create(query: 'test', user_id: 2, quantity: 15)
+Search.create(query: 'new test', user_id: 2, quantity: 20)
 
 Article.reindex

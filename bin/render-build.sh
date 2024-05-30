@@ -4,5 +4,6 @@ set -o errexit
 
 bundle install
 bundle exec rails stimulus:install
+bundle exec rails turbo:install
 bundle exec rails assets:precompile
 bundle exec rails assets:clean

@@ -1,7 +1,7 @@
 databases:
   - name: search-autocomplete
-    databaseName: search-autocomplete
-    user: search-autocomplete
+    databaseName: searchautocomplete
+    user: searchautocomplete
     plan: free
 
 services:

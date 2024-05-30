@@ -1,4 +1,3 @@
-
 # Search Autocomplete
 
 #### Description
@@ -10,6 +9,8 @@ The search engine looks for the most searched phrases based on user input in rea
 Each complete search a user does gets saved on the database as a possible suggestion. Repeated searches adds to the priority on showing this specific search as a suggestion for other users.
 
 #### How to Run
+
+You can message me for the master key.
 
 `rails db:create`
 
